@@ -1,0 +1,12 @@
+"""
+Mayor a 70 aprovado 
+"""
+promedio_como_cadena = input("Dime tu promedio: ")
+# Convertir a float
+promedio = float(promedio_como_cadena)
+
+# Hacer la comparación
+if promedio >= 7:
+    print("Aprobado")
+else:
+    print("No aprobado")
